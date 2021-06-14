@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the details."
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/><![CDATA[
+
+    android:textSize="27sp"/>
+
+    />
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Adhar number"
+        android:inputType="number"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:hint="Plate Number"
+        android:inputType="date|number|textPersonName|textPassword|textCapCharacters" />
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="15dp"
+        android:text="Generate"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button"
+        />
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="596dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight=".8"
+            android:background="@drawable/qrcode" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

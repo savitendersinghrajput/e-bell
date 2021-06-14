@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Splash_Activity">
+
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="82dp"
+        android:layout_margin="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/custom_button"
+        android:onClick="Scanner_Activity"
+        android:rotation="0"
+        android:rotationX="26"
+        android:text="User"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="374dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/custom_button"
+        android:onClick="MainActivity"
+        android:rotation="0"
+        android:rotationX="26"
+        android:text="Driver"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
