@@ -39,4 +39,19 @@
         android:textSize="27sp"
         android:textStyle="bold|italic" />
 
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:layout_marginTop="250dp"
+        android:background="#F61A0A"
+        android:rotationX="13"
+        android:text="SOS"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
 </LinearLayout>
