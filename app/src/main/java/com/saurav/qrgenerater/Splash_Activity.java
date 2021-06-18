@@ -31,7 +31,7 @@ public class Splash_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:12345"));
+                intent.setData(Uri.parse("tel:1091"));
                 startActivity(intent);
 
             }
